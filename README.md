@@ -1,5 +1,6 @@
 # DiskDraft
 Zack Tillotson
+Maintained by Tony Brown
 
 ## Development
 
@@ -19,5 +20,7 @@ Note you might have to global install webpack-dev-server if you haven't already.
 ```
 npm install -g webpack-dev-server
 ```
+
+[requires node v11]
 
 Copyright 2016 Zachery Tillotson

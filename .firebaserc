@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "fir-v2",
+    "default": "discdrafter",
     "dev": "fir-v2"
   }
 }

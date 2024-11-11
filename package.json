@@ -5,11 +5,11 @@
   "scripts": {
     "start": "webpack-dev-server --port 8888 --content-base app/ --inline --display-reasons --display-error-details",
     "build": "webpack -p",
-    "test": "webpack && JASMINE_CONFIG_PATH=jasmine.config.json jasmine app/assets/tests.js"
+    "test": "webpack && set JASMINE_CONFIG_PATH=jasmine.config.json && jasmine app/assets/tests.js"
   },
   "author": "Zack Tillotson",
   "license": "ISC",
-  "repository": "https://github.com/Zack-Tillotson/diskdraft-v2",
+  "repository": "https://github.com/tnyb/DiskDraft-opensource",
   "dependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -18,14 +18,15 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "ansi-html": "^0.0.7",
+    "ansi-html": "0.0.9",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
     "core-js": "^2.5.7",
     "create-react-class": "^15.6.3",
-    "firebase": "^5.5.2",
+    "firebase": "^5.11.1",
     "html-entities": "^1.2.1",
+    "jasmine": "^5.4.0",
     "json-loader": "^0.5.7",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",

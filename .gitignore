@@ -33,3 +33,4 @@ app/scripts/*/*/*.js
 node_modules/
 npm-debug.log
 app/
+yarn.lock 
